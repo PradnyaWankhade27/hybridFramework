@@ -32,13 +32,15 @@ public class Helper {
 	}*/
 
 	
-	public static void cparturesScreenShots(WebDriver driver){
+	public static String capturesScreenShots(WebDriver driver){
 		
+		
+		String screenShotsPath=System.getProperty("user.dir")+"//ScreenShots//freeCrm_"+getCurrentDateAndTime()+".png";
 		
 		File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
 		try {
-			FileHandler.copy(srcFile, new File(System.getProperty("user.dir")+"//ScreenShots//freeCrm_"+getCurrentDateAndTime()+".png"));
+			FileHandler.copy(srcFile, new File(screenShotsPath));
 		
 			System.out.println("Screenshots captured.....");
 		
@@ -47,6 +49,8 @@ public class Helper {
 			System.out.println("Screenshots not able to captured.....");
 			e.printStackTrace();
 		}
+		
+		return screenShotsPath;
 	}
 	
 	
