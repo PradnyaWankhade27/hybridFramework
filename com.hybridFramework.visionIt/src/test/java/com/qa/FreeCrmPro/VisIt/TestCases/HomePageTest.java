@@ -26,6 +26,7 @@ public class HomePageTest extends TestBase {
 	public void navigateToContactsPageTest() {
 
 		homePage.navigateToContactsPage();
+		logger=reports.createTest("verfiy report home page");
 	}
 
 

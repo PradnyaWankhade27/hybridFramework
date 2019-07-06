@@ -45,15 +45,11 @@ public class TestBase {
 		
 		reports.attachReporter(htmlRepoter);
 		
-		Reporter.log("Succesfully done initialization  ", true);
-		
-		
+		Reporter.log("Succesfully done initialization  ", true);	
 	}
-	
 	@AfterMethod
 	public void tearDown(ITestResult results) throws IOException{
-		
-		Reporter.log("generating and attaching screen shots ", true);
+	Reporter.log("generating and attaching screen shots ", true);
 		
 		if(results.getStatus()==ITestResult.FAILURE){
 			

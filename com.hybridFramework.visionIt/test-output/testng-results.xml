@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="2" failed="0" ignored="0" total="3" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Initializing the Excel Config and extents Reporters  ]]>
@@ -8,48 +8,15 @@
       <![CDATA[Succesfully done initialization  ]]>
     </line>
     <line>
-      <![CDATA[Browser started and navigating to testing server]]>
-    </line>
-    <line>
-      <![CDATA[Succesfuly navigated  to the login page ]]>
-    </line>
-    <line>
-      <![CDATA[Test started and verifying Title of the Login Page]]>
-    </line>
-    <line>
-      <![CDATA[veried Title of the Login Page]]>
-    </line>
-    <line>
       <![CDATA[generating and attaching screen shots ]]>
-    </line>
-    <line>
-      <![CDATA[generated  and attached the  screen shots and test will be completed.. ]]>
-    </line>
-    <line>
-      <![CDATA[Browser started and navigating to testing server]]>
-    </line>
-    <line>
-      <![CDATA[Succesfuly navigated  to the login page ]]>
-    </line>
-    <line>
-      <![CDATA[Eneter username and password to the Text field  ]]>
-    </line>
-    <line>
-      <![CDATA[Navigating to home page of the application ]]>
-    </line>
-    <line>
-      <![CDATA[generating and attaching screen shots ]]>
-    </line>
-    <line>
-      <![CDATA[generated  and attached the  screen shots and test will be completed.. ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54960" started-at="2019-06-29T08:06:04Z" finished-at="2019-06-29T08:06:59Z">
+  <suite name="Default suite" duration-ms="27682" started-at="2019-06-29T11:30:54Z" finished-at="2019-06-29T11:31:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="54960" started-at="2019-06-29T08:06:04Z" finished-at="2019-06-29T08:06:59Z">
-      <class name="com.qa.FreeCrmPro.VisIt.TestCases.LoginPageTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.FreeCrmPro.VisIt.TestCases.LoginPageTest@343f4d3d]" name="beforeSuite" is-config="true" duration-ms="956" started-at="2019-06-29T08:06:03Z" finished-at="2019-06-29T08:06:04Z">
+    <test name="Default test" duration-ms="27682" started-at="2019-06-29T11:30:54Z" finished-at="2019-06-29T11:31:22Z">
+      <class name="com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest@343f4d3d]" name="beforeSuite" is-config="true" duration-ms="2303" started-at="2019-06-29T11:30:52Z" finished-at="2019-06-29T11:30:54Z">
           <reporter-output>
             <line>
               <![CDATA[Initializing the Excel Config and extents Reporters  ]]>
@@ -59,93 +26,215 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FreeCrmPro.VisIt.TestCases.LoginPageTest@343f4d3d]" name="setup" is-config="true" duration-ms="25995" started-at="2019-06-29T08:06:04Z" finished-at="2019-06-29T08:06:30Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest@343f4d3d]" name="setup" is-config="true" duration-ms="24325" started-at="2019-06-29T11:30:54Z" finished-at="2019-06-29T11:31:18Z">
           <reporter-output>
-            <line>
-              <![CDATA[Browser started and navigating to testing server]]>
-            </line>
-            <line>
-              <![CDATA[Succesfuly navigated  to the login page ]]>
-            </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.FreeCrmPro.VisIt.TestCases.LoginPageTest@343f4d3d]" name="verifyLoginPageTitleTest" duration-ms="94" started-at="2019-06-29T08:06:30Z" finished-at="2019-06-29T08:06:30Z">
+        <test-method status="PASS" signature="navigateToContactsPageTest()[pri:1, instance:com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest@343f4d3d]" name="navigateToContactsPageTest" duration-ms="2073" started-at="2019-06-29T11:31:18Z" finished-at="2019-06-29T11:31:21Z">
           <reporter-output>
-            <line>
-              <![CDATA[Test started and verifying Title of the Login Page]]>
-            </line>
-            <line>
-              <![CDATA[veried Title of the Login Page]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.FreeCrmPro.VisIt.TestCases.LoginPageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="2089" started-at="2019-06-29T08:06:30Z" finished-at="2019-06-29T08:06:32Z">
+        </test-method> <!-- navigateToContactsPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="1152" started-at="2019-06-29T11:31:21Z" finished-at="2019-06-29T11:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="41" started-at="2019-06-29T11:31:22Z" finished-at="2019-06-29T11:31:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyLoginPageTitleTest status=SUCCESS method=LoginPageTest.verifyLoginPageTitleTest()[pri:1, instance:com.qa.FreeCrmPro.VisIt.TestCases.LoginPageTest@343f4d3d] output=Test started and verifying Title of the Login Page]]]>
+                <![CDATA[[TestResult name=navigateToContactsPageTest status=SUCCESS method=HomePageTest.navigateToContactsPageTest()[pri:1, instance:com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest@343f4d3d] output={null}]]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JAYGOKA', ip: '192.168.2.10', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_51'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JAYGOKA', ip: '192.168.2.10', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_51'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at com.qa.FreeCrmPro.VisIt.Util.Helper.capturesScreenShots(Helper.java:40)
+at com.qa.FreeCrmPro.VisIt.Base.TestBase.tearDown(TestBase.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
             <line>
               <![CDATA[generating and attaching screen shots ]]>
             </line>
-            <line>
-              <![CDATA[generated  and attached the  screen shots and test will be completed.. ]]>
-            </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FreeCrmPro.VisIt.TestCases.LoginPageTest@343f4d3d]" name="setup" is-config="true" duration-ms="14626" started-at="2019-06-29T08:06:32Z" finished-at="2019-06-29T08:06:47Z">
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest@343f4d3d]" name="setup" is-config="true" duration-ms="0" started-at="2019-06-29T11:31:22Z" finished-at="2019-06-29T11:31:22Z">
           <reporter-output>
-            <line>
-              <![CDATA[Browser started and navigating to testing server]]>
-            </line>
-            <line>
-              <![CDATA[Succesfuly navigated  to the login page ]]>
-            </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLogintoFreeCrmProTest(java.lang.String, java.lang.String)[pri:2, instance:com.qa.FreeCrmPro.VisIt.TestCases.LoginPageTest@343f4d3d]" name="verifyLogintoFreeCrmProTest" duration-ms="10494" started-at="2019-06-29T08:06:47Z" data-provider="getExcelData" finished-at="2019-06-29T08:06:57Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Vasant]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Vasant123]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="navigateToDealsPageTest()[pri:2, instance:com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest@343f4d3d]" name="navigateToDealsPageTest" duration-ms="0" started-at="2019-06-29T11:31:22Z" finished-at="2019-06-29T11:31:22Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JAYGOKA', ip: '192.168.2.10', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_51'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JAYGOKA', ip: '192.168.2.10', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_51'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at com.qa.FreeCrmPro.VisIt.Util.Helper.capturesScreenShots(Helper.java:40)
+at com.qa.FreeCrmPro.VisIt.Base.TestBase.tearDown(TestBase.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
-            <line>
-              <![CDATA[Eneter username and password to the Text field  ]]>
-            </line>
-            <line>
-              <![CDATA[Navigating to home page of the application ]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- verifyLogintoFreeCrmProTest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.FreeCrmPro.VisIt.TestCases.LoginPageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="1617" started-at="2019-06-29T08:06:57Z" finished-at="2019-06-29T08:06:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLogintoFreeCrmProTest status=SUCCESS method=LoginPageTest.verifyLogintoFreeCrmProTest(java.lang.String, java.lang.String)[pri:2, instance:com.qa.FreeCrmPro.VisIt.TestCases.LoginPageTest@343f4d3d] output=Eneter username and password to the Text field  ]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- navigateToDealsPageTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-06-29T11:31:22Z" finished-at="2019-06-29T11:31:22Z">
           <reporter-output>
-            <line>
-              <![CDATA[generating and attaching screen shots ]]>
-            </line>
-            <line>
-              <![CDATA[generated  and attached the  screen shots and test will be completed.. ]]>
-            </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.FreeCrmPro.VisIt.TestCases.LoginPageTest -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-06-29T11:31:22Z" finished-at="2019-06-29T11:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setup()[pri:0, instance:com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest@343f4d3d]" name="setup" is-config="true" duration-ms="0" started-at="2019-06-29T11:31:22Z" finished-at="2019-06-29T11:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="navigateToTasksPageTest()[pri:3, instance:com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest@343f4d3d]" name="navigateToTasksPageTest" duration-ms="0" started-at="2019-06-29T11:31:22Z" finished-at="2019-06-29T11:31:22Z">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JAYGOKA', ip: '192.168.2.10', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_51'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JAYGOKA', ip: '192.168.2.10', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_51'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+at com.qa.FreeCrmPro.VisIt.Util.Helper.capturesScreenShots(Helper.java:40)
+at com.qa.FreeCrmPro.VisIt.Base.TestBase.tearDown(TestBase.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToTasksPageTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-06-29T11:31:22Z" finished-at="2019-06-29T11:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest@343f4d3d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-06-29T11:31:22Z" finished-at="2019-06-29T11:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.FreeCrmPro.VisIt.TestCases.LoginPageTest">
+      <class name="com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest">
         <methods>
-          <include name="verifyLogintoFreeCrmProTest"/>
+          <include name="navigateToDealsPageTest"/>
+          <include name="beforeSuite"/>
           <include name="setup"/>
+          <include name="navigateToTasksPageTest"/>
+          <include name="tearDown"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.qa.FreeCrmPro.VisIt.TestCases.LoginPageTest -->
+      </class> <!-- com.qa.FreeCrmPro.VisIt.TestCases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
